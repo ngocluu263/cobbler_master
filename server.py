@@ -15,15 +15,15 @@ class PhysicsServer(object):
     ILO_AUTH = {
         "dell": {
             "user": "root",
-            "passwd": "calvin"
+            "passwd": "******"
             },
         "supermicro": {
             "user": "ADMIN",
-            "passwd": "ADMIN"
+            "passwd": "*****"
             },
         "huawei": {
             "user": "root",
-            "passwd": "abc123!@#"
+            "passwd": "*********"
             }
     }
 
