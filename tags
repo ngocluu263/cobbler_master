@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CobblerApiConnectError	error.py	/^class CobblerApiConnectError(Exception):$/;"	c
+CobblerProxy	pxe_manager.py	/^class CobblerProxy(object):$/;"	c
+DEPRECATED_FIELDS	utils.py	/^DEPRECATED_FIELDS = {$/;"	v
+ILO_AUTH	server.py	/^    ILO_AUTH = {$/;"	v	class:PhysicsServer
+IPMITOOL	server.py	/^    IPMITOOL = '\/usr\/bin\/ipmitool'$/;"	v	class:PhysicsServer
+IloConnetionError	error.py	/^class IloConnetionError(Exception):$/;"	c
+PhysicsServer	server.py	/^class PhysicsServer(Server):$/;"	c
+SMCIPMITOOl	server.py	/^    SMCIPMITOOl = '\/root\/SMCIPMITool_2.8.1\/SMCIPMITool'$/;"	v	class:PhysicsServer
+UnknownVendorError	error.py	/^class UnknownVendorError(Exception):$/;"	c
+__init__	pxe_manager.py	/^    def __init__(self, config_file):$/;"	m	class:CobblerProxy
+__init__	server.py	/^    def __init__(self, ilo_ip=None, commands=None):$/;"	m	class:PhysicsServer
+check_setup	pxe_manager.py	/^    def check_setup(self):$/;"	m	class:CobblerProxy
+commands	deploy.py	/^import commands$/;"	i
+deploy	command_check.py	/^import deploy$/;"	i
+detect_vendor	server.py	/^    def detect_vendor(self):$/;"	m	class:PhysicsServer
+error	deploy.py	/^import error$/;"	i
+fetch_macs	server.py	/^    def fetch_macs(self):$/;"	m	class:PhysicsServer
+fetch_macs_dell	server.py	/^    def fetch_macs_dell(self):$/;"	m	class:PhysicsServer
+fetch_macs_supermicro	server.py	/^    def fetch_macs_supermicro(self):$/;"	m	class:PhysicsServer
+form	command_check.py	/^    form = yaml.load(open(sys.argv[1]))$/;"	v
+generate_cobbler_commands	pxe_manager.py	/^    def generate_cobbler_commands(self, server):$/;"	m	class:CobblerProxy
+generate_pxe_files	pxe_manager.py	/^    def generate_pxe_files(self, server):$/;"	m	class:CobblerProxy
+get_remote_by_pxe_ip	pxe_manager.py	/^    def get_remote_by_pxe_ip(self, pxe_ip):$/;"	m	class:CobblerProxy
+inspect	deploy.py	/^import inspect$/;"	i
+inspect	utils.py	/^import inspect$/;"	i
+main	deploy.py	/^def main():$/;"	f
+main	utils.py	/^def main():$/;"	f
+pxe_manager	deploy.py	/^import pxe_manager$/;"	i
+reinstall	pxe_manager.py	/^    def reinstall(self, server):$/;"	m	class:CobblerProxy
+replace_deprecate_field	utils.py	/^def replace_deprecate_field(data):$/;"	f
+restart_with_pxe	server.py	/^    def restart_with_pxe(self):$/;"	m	class:PhysicsServer
+s	command_check.py	/^s = deploy.PhysicsServer()$/;"	v
+server	deploy.py	/^import server$/;"	i
+sys	command_check.py	/^import sys$/;"	i
+test	deploy.py	/^def test():$/;"	f
+types	utils.py	/^import types$/;"	i
+urllib2	deploy.py	/^import urllib2$/;"	i
+utils	deploy.py	/^import utils$/;"	i
+xmlrpclib	deploy.py	/^import xmlrpclib$/;"	i
+yaml	command_check.py	/^import yaml$/;"	i
+yaml	deploy.py	/^import yaml$/;"	i

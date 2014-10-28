@@ -1,0 +1,15 @@
+yz:
+    subnet:
+        - 10.11.3
+        - 10.11.7
+    cobbler:
+        url: "http://10.10.2.251/cobbler_api"
+        user: admin
+        passwd: admin
+#office:
+#    subnet:
+#        - 192.168.16
+#    cobbler:
+#        url: "http://192.168.16.248/cobbler_api"
+#        user: admin
+#        passwd: admin
